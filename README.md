@@ -108,6 +108,117 @@ The skill format follows the [agentskills.io specification](https://agentskills.
 
 ---
 
+## 安装说明 (简体中文)
+
+### 1. 克隆仓库
+
+```bash
+git clone https://github.com/liyuanbo1024/management-science-writing.git
+```
+
+### 2. 安装到你的AI智能体
+
+| 智能体 | 安装命令 | 技能目录 |
+|--------|---------|---------|
+| **OpenCode** | `cp -r management-science-writing ~/.config/opencode/skills/` | `~/.config/opencode/skills/` |
+| **Claude Code** | `cp -r management-science-writing ~/.claude/skills/` | `~/.claude/skills/` |
+| **Codex** | `cp -r management-science-writing ~/.agents/skills/` | `~/.agents/skills/` |
+| **Cursor** | `cp -r management-science-writing ~/.cursor/skills/` | `~/.cursor/skills/` |
+| **Windsurf** | `cp -r management-science-writing ~/.windsurf/skills/` | `~/.windsurf/skills/` |
+
+Windows PowerShell 用户将 `cp -r` 替换为 `Copy-Item -Recurse`，将 `~/` 替换为 `$env:USERPROFILE\`。
+
+### 3. 触发方式
+
+安装后，通过自然语言描述即可触发该技能：
+
+- "我要写一篇关于动态定价的MSOM论文，帮我定位选题"
+- "我的模型已经搭好，帮我推导结构性质"
+- "带我走一遍完整的管理科学论文写作流程"
+- "How should I structure proofs for an Operations Research submission?"
+
+### 4. 适用场景
+
+该技能覆盖管理科学与工程领域的完整论文写作流程：
+
+| 阶段 | 产出 | 典型触发语 |
+|------|------|-----------|
+| 选题定位 | Gap table、期刊推荐、贡献陈述 | "我有个研究想法……" |
+| 模型构建 | 记法系统、假设框架、数学公式 | "帮我设计数学模型" |
+| 推导分析 | Lemma→Theorem→Corollary证明链 | "帮我推导/证明……" |
+| 数值实验 | 参数校准、敏感性分析、反事实 | "帮我设计数值实验" |
+| 写作组装 | Introduction、文献综述、管理启示、全文 | "帮我写完整论文" |
+
+---
+
+## インストール (日本語)
+
+### 1. リポジトリのクローン
+
+```bash
+git clone https://github.com/liyuanbo1024/management-science-writing.git
+```
+
+### 2. AIエージェントへのインストール
+
+| エージェント | インストールコマンド | スキルディレクトリ |
+|-------------|-------------------|-----------------|
+| **OpenCode** | `cp -r management-science-writing ~/.config/opencode/skills/` | `~/.config/opencode/skills/` |
+| **Claude Code** | `cp -r management-science-writing ~/.claude/skills/` | `~/.claude/skills/` |
+| **Codex** | `cp -r management-science-writing ~/.agents/skills/` | `~/.agents/skills/` |
+| **Cursor** | `cp -r management-science-writing ~/.cursor/skills/` | `~/.cursor/skills/` |
+| **Windsurf** | `cp -r management-science-writing ~/.windsurf/skills/` | `~/.windsurf/skills/` |
+
+### 3. トリガー方法
+
+インストール後、自然言語でスキルを呼び出せます：
+
+- `MSOMに動的価格設定の論文を書きたい。ポジショニングを手伝って`
+- `EJORの査読基準を教えて`
+- `管理科学の論文をゼロから書き上げて`
+
+### 4. 対応ジャーナル
+
+UTD-24: **MS, OR, MSOM, POM**
+フィールドジャーナル: **TS, TRB, DS, OMEGA, TRE, EJOR, IJPE, IJPR, C&IE**
+
+---
+
+## 설치 안내 (한국어)
+
+### 1. 저장소 클론
+
+```bash
+git clone https://github.com/liyuanbo1024/management-science-writing.git
+```
+
+### 2. AI 에이전트에 설치
+
+| 에이전트 | 설치 명령어 | 스킬 디렉토리 |
+|---------|-----------|------------|
+| **OpenCode** | `cp -r management-science-writing ~/.config/opencode/skills/` | `~/.config/opencode/skills/` |
+| **Claude Code** | `cp -r management-science-writing ~/.claude/skills/` | `~/.claude/skills/` |
+| **Codex** | `cp -r management-science-writing ~/.agents/skills/` | `~/.agents/skills/` |
+| **Cursor** | `cp -r management-science-writing ~/.cursor/skills/` | `~/.cursor/skills/` |
+| **Windsurf** | `cp -r management-science-writing ~/.windsurf/skills/` | `~/.windsurf/skills/` |
+
+### 3. 트리거 방법
+
+설치 후 자연어로 스킬을 호출할 수 있습니다:
+
+- `MSOM에 동적 가격 책정 논문을 쓰고 싶습니다. 포지셔닝을 도와주세요`
+- `OR 저널의 증명 작성 기준이 어떻게 되나요?`
+- `경영과학 논문을 처음부터 끝까지 작성해 주세요`
+
+### 4. 지원 저널
+
+UTD-24: **MS, OR, MSOM, POM**
+분야 저널: **TS, TRB, DS, OMEGA, TRE, EJOR, IJPE, IJPR, C&IE**
+
+---
+
+---
+
 ## How to Use
 
 ### Quick Start
