@@ -25,7 +25,7 @@ The skill is **domain-specific**: it encodes the conventions, expectations, and 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/management-science-writing.git
+git clone https://github.com/liyuanbo1024/management-science-writing.git
 ```
 
 ### 2. Install for Your AI Agent
